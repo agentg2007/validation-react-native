@@ -1,0 +1,40 @@
+{
+  "name": "@nthity/validation-rn",
+  "version": "1.0.0",
+  "description": "React-native basic input controls that uses @nthity/validation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agentg2007/validation-react-native.git"
+  },
+  "keywords": [
+    "raect-native",
+    "form-validation",
+    "validation",
+    "react",
+    "input-controls"
+  ],
+  "author": "agentg2007",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agentg2007/validation-react-native/issues"
+  },
+  "homepage": "https://github.com/agentg2007/validation-react-native#readme",
+  "peerDependencies": {
+    "@nthity/validation": "^1.1.1",
+    "react": "^18.0.0",
+    "react-native": "^0.69.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/react": "^18.0.14",
+    "@types/react-native": "^0.69.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
