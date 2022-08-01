@@ -1,7 +1,9 @@
 import {
-    InputComponentType, useValidationState, withValidation
+    InputComponentType,
+    useValidationState,
+    withValidation
 } from "@nthity/validation";
-import _ from "lodash";
+import React from "react";
 import {
     TextInput, TextInputProps
 } from "react-native";
@@ -25,4 +27,4 @@ const StringInput = ({
         onChangeText={onChange}
     />
 };
-export default withValidation(StringInput, "StringInput"); 
+export default withValidation(StringInput, "StringInput");
